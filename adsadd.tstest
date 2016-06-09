@@ -4,7 +4,7 @@
     "DomStatesCounter": {},
     "WebKitExecutionDelay": 0,
     "ReuseAppWindow": 0,
-    "ProfilerResultsDirectory": null,
+    "ProfilerResultsDirectory": "C:\\temp\\CleanPerformanceSetup",
     "ProfilerServerName": null,
     "ProfilerBenchmarkResultsFilePath": null,
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
@@ -28,20 +28,20 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "4b76565e-9daa-4a32-be7f-20d56208af06",
-            "Description": "Navigate to : 'http://it-help.bathspa.ac.uk/iframe_demo.html'",
+            "Runtime ID": "1cd88ed4-a379-4adf-ba64-154bd1009893",
+            "Description": "Navigate to : 'http://www.wikipedia.org/'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
               "__value": {
                 "UseDecodedUrl": false,
-                "NavigateURL": "http://it-help.bathspa.ac.uk/iframe_demo.html",
+                "NavigateURL": "http://www.wikipedia.org/",
                 "BaseUrl": "",
-                "WaitOnElementsTimeout": 10000,
-                "UseStepWaitOnElementsTimout": true,
-                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
                 "UsejQuery": false,
-                "UseBackupSearch": false,
+                "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
                 "Pause": 0,
@@ -66,7 +66,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "iFrames_1v0gmpe4s.w0w",
+            "StepImageKey": "ExistingPerformanceSetupt55vtn1q.wja",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -75,419 +75,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "f2ff0ec6-7e50-44d2-b418-d6d4eb6be3c6",
-            "Description": "Wait for Exists 'Div'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
-              "__value": {
-                "ExistsNot": false,
-                "WaitOnElements": true,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "DataBindVariableName": null,
-                "Timeout": 30000,
-                "CheckInterval": 500,
-                "EnsureStateIsCurrent": false,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "http://it-help.bathspa.ac.uk/iframe_demo.html",
-                          "Query": "",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Iframe Demo",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "IframeDemo"
-                        }
-                      },
-                      "Frame": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.Frame",
-                        "__value": {
-                          "FrameInfo": {
-                            "__type": "ArtOfTest.WebAii.Core.FrameInfo",
-                            "__value": {
-                              "_index": 0,
-                              "_name": "libcats",
-                              "_id": "",
-                              "TestStudioTag": "",
-                              "_baseURL": "http://library.uwe.ac.uk/uhtbin/cgisirsi/x/0/57/49",
-                              "_query": "user_id=web-np",
-                              "_useQuery": false,
-                              "_usesBaseUrlHost": false
-                            }
-                          },
-                          "FriendlyName": "FrameLibcats"
-                        }
-                      },
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "WWJ9dDVoWzDii4tVaf6YwPx8LC0=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "Div",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TagIndex=div:0"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 1,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 2,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "iFrames_1uabojp4p.5y2",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "74ff03ad-e3e8-418b-b801-e38521dfb24c",
-            "Description": "Enter text 'new' in 'UserIdText'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
-              "__value": {
-                "RawText": "new",
-                "SimulateRealTyping": false,
-                "TypingSpeed": 50,
-                "KeyHoldTime": 100,
-                "IsPassword": false,
-                "TypingInfo": {
-                  "ElementText": "new",
-                  "TypedText": "new",
-                  "CaretPosition": 3,
-                  "IsTextArea": false,
-                  "IsBackSpace": false
-                },
-                "Encrypt": false,
-                "SupportUnicode": true,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
-                  }
-                },
-                "Elements": {
-                  "textTarget": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "textTarget",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "http://it-help.bathspa.ac.uk/iframe_demo.html",
-                          "Query": "",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Iframe Demo",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "IframeDemo"
-                        }
-                      },
-                      "Frame": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.Frame",
-                        "__value": {
-                          "FrameInfo": {
-                            "__type": "ArtOfTest.WebAii.Core.FrameInfo",
-                            "__value": {
-                              "_index": 0,
-                              "_name": "libcats",
-                              "_id": "",
-                              "TestStudioTag": "",
-                              "_baseURL": "http://library.uwe.ac.uk/uhtbin/cgisirsi/x/0/57/49",
-                              "_query": "user_id=web-np",
-                              "_useQuery": false,
-                              "_usesBaseUrlHost": false
-                            }
-                          },
-                          "FriendlyName": "FrameLibcats"
-                        }
-                      },
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "DK+3hp2yOQApoqDYhCyj0X62q0I=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "UserIdText",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=user_id"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=input"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/center[1]/form[1]/table[1]/tbody[1]/tr[1]/td[3]/input[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {},
-                "_canEncrypt": false,
-                "_cipher": null
-              }
-            },
-            "Enabled": true,
-            "Order": 3,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "iFrames_1x4rkmkyl.1lv",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "fa79f5d7-582f-400b-a830-f0e5d3f30c88",
-            "Description": "Enter text 'pin' in 'PasswordPassword'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
-              "__value": {
-                "RawText": "pin",
-                "SimulateRealTyping": false,
-                "TypingSpeed": 50,
-                "KeyHoldTime": 100,
-                "IsPassword": false,
-                "TypingInfo": {
-                  "ElementText": "pin",
-                  "TypedText": "pin",
-                  "CaretPosition": 3,
-                  "IsTextArea": false,
-                  "IsBackSpace": false
-                },
-                "Encrypt": false,
-                "SupportUnicode": true,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
-                  }
-                },
-                "Elements": {
-                  "textTarget": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "textTarget",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "http://it-help.bathspa.ac.uk/iframe_demo.html",
-                          "Query": "",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Iframe Demo",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "IframeDemo"
-                        }
-                      },
-                      "Frame": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.Frame",
-                        "__value": {
-                          "FrameInfo": {
-                            "__type": "ArtOfTest.WebAii.Core.FrameInfo",
-                            "__value": {
-                              "_index": 0,
-                              "_name": "libcats",
-                              "_id": "",
-                              "TestStudioTag": "",
-                              "_baseURL": "http://library.uwe.ac.uk/uhtbin/cgisirsi/x/0/57/49",
-                              "_query": "user_id=web-np",
-                              "_useQuery": false,
-                              "_usesBaseUrlHost": false
-                            }
-                          },
-                          "FriendlyName": "FrameLibcats"
-                        }
-                      },
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "vgniFWEPR+vPYUoldZ5eJ8Z8nKk=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "PasswordPassword",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=password"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=input"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/center[1]/form[1]/table[1]/tbody[1]/tr[2]/td[2]/input[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputPassword",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {},
-                "_canEncrypt": true,
-                "_cipher": null
-              }
-            },
-            "Enabled": true,
-            "Order": 4,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "iFrames_1ehbkqpry.wye",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "cc65e78d-cb3e-4731-b4f9-fcf5b948b02a",
-            "Description": "Click 'Submit'",
+            "Runtime ID": "81b28070-eb91-4a15-a1f4-48169a614ba3",
+            "Description": "Click 'EsperantoLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -498,8 +87,8 @@
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
                 "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElementsTimeout": 60000,
+                "UseStepWaitOnElementsTimout": true,
                 "WaitOnElements": true,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -519,44 +108,26 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "http://it-help.bathspa.ac.uk/iframe_demo.html",
+                          "Path": "https://www.wikipedia.org/",
                           "Query": "",
                           "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Iframe Demo",
+                          "Title": "Wikipedia",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "IframeDemo"
+                          "FriendlyName": "Wikipedia"
                         }
                       },
-                      "Frame": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.Frame",
-                        "__value": {
-                          "FrameInfo": {
-                            "__type": "ArtOfTest.WebAii.Core.FrameInfo",
-                            "__value": {
-                              "_index": 0,
-                              "_name": "libcats",
-                              "_id": "",
-                              "TestStudioTag": "",
-                              "_baseURL": "http://library.uwe.ac.uk/uhtbin/cgisirsi/x/0/57/49",
-                              "_query": "user_id=web-np",
-                              "_useQuery": false,
-                              "_usesBaseUrlHost": false
-                            }
-                          },
-                          "FriendlyName": "FrameLibcats"
-                        }
-                      },
+                      "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "ExiSLO+L2JJhhPxDsEM6uYeImok=",
+                          "uniqueKey": "tP2LAPX0JrMsI+sw6CzTCVx+LBE=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Submit",
+                          "Name": "EsperantoLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -567,13 +138,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "value=Login"
+                                        "Clause": "href=//eo.wikipedia.org/"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=input"
+                                        "Clause": "tagname=a"
                                       }
                                     }
                                   ],
@@ -583,11 +154,344 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/center[1]/form[1]/table[1]/tbody[1]/tr[3]/td[2]/input[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[6]/div[1]/a[9]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputSubmit",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "ExistingPerformanceSetupac4j5qjs.si0",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "6c0f855a-1db4-4b95-b7e1-dcbb3a81cb7c",
+            "Description": "Click 'TiuPaĝoLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 60000,
+                "UseStepWaitOnElementsTimout": true,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://eo.wikipedia.org/w/index.php",
+                          "Query": "?title=Vikipedio:%C4%88efpa%C4%9Do&action=history",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Historio de versioj de \"Vikipedio:Ĉefpaĝo\" - Vikipedio",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "HistorioDeVersiojDe"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "wG8pxZ/OpQgeuEItgkaP+JxzSqA=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "TiuPaĝoLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=^Vidi vikiteksto"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[4]/div[3]/div[1]/ul[1]/li[2]/span[1]/a[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 3,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "ExistingPerformanceSetup0ptchhex.uvc",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "9f5a958c-52cf-40e7-891b-f7e5c2bbf36b",
+            "Description": "Click 'AntaŭajLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 60000,
+                "UseStepWaitOnElementsTimout": true,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://eo.wikipedia.org/w/index.php",
+                          "Query": "?title=Vikipedio:%C4%88efpa%C4%9Do&action=edit",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Vidi fonton por Vikipedio:Ĉefpaĝo - Vikipedio",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "VidiFontonPor"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "aguL31HmEF12pmli8I57T/r+8hw=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "AntaŭajLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Vidi historion"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[4]/div[3]/div[1]/ul[1]/li[3]/span[1]/a[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 4,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "ExistingPerformanceSetuperhc51dm.dmw",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "d6acf269-f553-469e-ba99-54f64de343fb",
+            "Description": "Click 'TiuPaĝoLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 60000,
+                "UseStepWaitOnElementsTimout": true,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://eo.wikipedia.org/w/index.php",
+                          "Query": "?title=Vikipedio:%C4%88efpa%C4%9Do&action=history",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Historio de versioj de \"Vikipedio:Ĉefpaĝo\" - Vikipedio",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "HistorioDeVersiojDe"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "wG8pxZ/OpQgeuEItgkaP+JxzSqA=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "TiuPaĝoLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=^Vidi vikiteksto"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[4]/div[3]/div[1]/ul[1]/li[2]/span[1]/a[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -606,7 +510,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "iFrames_10a2yeyqk.un4",
+            "StepImageKey": "ExistingPerformanceSetupzhrbk4pe.x0b",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -615,23 +519,20 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "87976eda-57e7-4063-98ad-fb60bb0c9945",
-            "Description": "Wait for 'TextContent' 'Contains' 'Login to the Library Catalogue' on 'LoginToTheH3Tag'",
+            "Runtime ID": "39a1ec49-cfc5-4931-b3fb-68c35e840617",
+            "Description": "Click 'LegiLink'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
-                "CompareType": 2,
-                "SegmentType": 3,
-                "ExpectedString": "Login to the Library Catalogue",
+                "SimulateRealClick": false,
+                "UsejQuery": false,
                 "UseBackupSearch": true,
-                "DataBindVariableName": null,
-                "Timeout": 30000,
-                "CheckInterval": 500,
-                "EnsureStateIsCurrent": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
                 "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElementsTimeout": 60000,
+                "UseStepWaitOnElementsTimout": true,
                 "WaitOnElements": true,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -643,52 +544,34 @@
                   }
                 },
                 "Elements": {
-                  "textTarget": {
+                  "target": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "textTarget",
+                      "Name": "target",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "http://it-help.bathspa.ac.uk/iframe_demo.html",
-                          "Query": "",
+                          "Path": "http://eo.wikipedia.org/w/index.php",
+                          "Query": "?title=Vikipedio:%C4%88efpa%C4%9Do&action=edit",
                           "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Iframe Demo",
+                          "Title": "Vidi fonton por Vikipedio:Ĉefpaĝo - Vikipedio",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "IframeDemo"
+                          "FriendlyName": "VidiFontonPor"
                         }
                       },
-                      "Frame": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.Frame",
-                        "__value": {
-                          "FrameInfo": {
-                            "__type": "ArtOfTest.WebAii.Core.FrameInfo",
-                            "__value": {
-                              "_index": 0,
-                              "_name": "libcats",
-                              "_id": "",
-                              "TestStudioTag": "",
-                              "_baseURL": "http://library.uwe.ac.uk/uhtbin/cgisirsi/x/0/57/49",
-                              "_query": "user_id=web-np",
-                              "_useQuery": false,
-                              "_usesBaseUrlHost": false
-                            }
-                          },
-                          "FriendlyName": "FrameLibcats"
-                        }
-                      },
+                      "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "aH2UYd24u0kBOg+GW++f40bq4Jw=",
+                          "uniqueKey": "d9zyCMx0+4rtFlPWGvSIgnzL29I=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "LoginToTheH3Tag",
+                          "Name": "LegiLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -699,13 +582,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=^Login to the Li"
+                                        "Clause": "TextContent=Legi"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=h3"
+                                        "Clause": "tagname=a"
                                       }
                                     }
                                   ],
@@ -715,11 +598,11 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/h3[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[4]/div[3]/div[1]/ul[1]/li[1]/span[1]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -727,7 +610,7 @@
                     }
                   }
                 },
-                "StepType": 1,
+                "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
                 "DataBindingExpressions": {}
@@ -738,7 +621,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "iFrames_1cne1pzy4.pwo",
+            "StepImageKey": "ExistingPerformanceSetupispzkwz0.4hf",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -760,7 +643,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "iFrames.resx",
+    "ResourceFilePath": "adsadd.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -790,13 +673,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "iFrames",
+    "Name": "adsadd",
     "Owner": "",
-    "Path": "iFrames.tstest",
+    "Path": "adsadd.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "d1ff1b1a-b481-420b-8b3b-8d00cdd73a48",
-    "Id": "d1ff1b1a-b481-420b-8b3b-8d00cdd73a48",
+    "UniqueId": "e8da5f0f-eac2-4034-9bbb-9ebe17ea3e93",
+    "Id": "e8da5f0f-eac2-4034-9bbb-9ebe17ea3e93",
     "ProjectId": "8e087b70-b2cf-4ea3-8cae-7196e81e5a85",
     "Version": 200
   }
